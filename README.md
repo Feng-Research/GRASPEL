@@ -24,13 +24,13 @@ This function returns G, varRatio[1:numIter], costVec[1:numIter], numIter
 	costVec is a history of the costVec through the iterations
 	numIter is the number of completed iterations
 
-------------USPS Example
+## USPS Example
 The example RUN_USPS.jl preprocesses and runs the data in the 
 USPS.mat file, which is the USPS dataset of handwritten digits.
 
 Lines 7-12 in the RUN_USPS dataset set the parameters in the FiedlerConstruct function
 
------------Running the example
+## Running the example
 1) GRASPEL.jl, RUN_USPS.jl, and USPS.mat must be in the same directory
 
 2) The following packages must be installed in the Julia REPL
