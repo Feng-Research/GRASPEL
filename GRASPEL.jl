@@ -50,8 +50,8 @@ function FiedlerAddEdges(G,fea,samplePerc,chosenPercEachIter,sig,embedTol)
     #end
 
     L = L + (1/(sig^2))*sparse(LinearAlgebra.I,L.m,L.n)
-    #mmwrite(raw"C:\Users\jacec\Desktop\code\code\JuliaL.mtx",L)
-    #L = mmread(raw"C:\Users\jacec\Documents\MATLAB\GRASPEL_Code\code\JuliaL.mtx")
+    #mmwrite(pwd()*raw"\JuliaL.mtx",L)
+    #L = mmread(pwd()*raw"\MATLAB\GRASPEL_Code\code\JuliaL.mtx")
     vals, vecs = eigs(L; nev = num_eigs_f, which = :SM, tol = 1e-6)
     #@info vals
     #@info vecs[1,:]
