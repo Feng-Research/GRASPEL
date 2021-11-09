@@ -18,6 +18,7 @@ FiedlerConstruct(fea, samplePerc, edge_iter, sig, maxIterations, k, tol, num_nod
 	dim is the length of an element of the input vector
 
 This function returns G, varRatio[1:numIter], costVec[1:numIter], numIter
+
 	G is a SimpleWeightedGraphs object of the resulting graph
 	varRatio is a history of the varRatio through the iterations
 	costVec is a history of the costVec through the iterations
