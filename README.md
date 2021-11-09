@@ -44,11 +44,11 @@ Lines 7-12 in the RUN_USPS dataset set the parameters in the FiedlerConstruct fu
 	--Arpack https://github.com/JuliaLinearAlgebra/Arpack.jl  
 	--Clustering https://github.com/JuliaStats/Clustering.jl  
 
-command:
+	command:
 
-	add MAT, HNSW, Distances, MatrixMarket, Graphs, SimpleWeightedGraphs, Arpack, Clustering 
+		add MAT, HNSW, Distances, MatrixMarket, Graphs, SimpleWeightedGraphs, Arpack, Clustering 
 
-after opening the REPL and pressing "]" to enter pkg editing  
+	after opening the REPL and pressing "]" to enter pkg editing  
 
 3) Navigate to the directory in terminal and run RUN_USPS.jl using the command:
 "julia RUN_USPS.jl"
