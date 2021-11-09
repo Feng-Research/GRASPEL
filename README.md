@@ -46,11 +46,12 @@ Lines 7-12 in the RUN_USPS dataset set the parameters in the FiedlerConstruct fu
 
 command:
 
-	add MAT, HNSW, Distances, MatrixMarket, Graphs, SimpleWeightedGraphs, Arpack, Clustering after opening the REPL and pressing "]" to enter pkg editing  
+	add MAT, HNSW, Distances, MatrixMarket, Graphs, SimpleWeightedGraphs, Arpack, Clustering 
+
+after opening the REPL and pressing "]" to enter pkg editing  
 
 3) Navigate to the directory in terminal and run RUN_USPS.jl using the command:
 "julia RUN_USPS.jl"
 
-4)The function should create two matrixmarket (.mtx) files named
-"Julia_A.mtx" and "Julia_L.mtx", for the Laplacian and Adjacency
-matrices of the resulting graph G.
+4) The function should create two matrixmarket (.mtx) files named "Julia_A.mtx" and "Julia_L.mtx", for the 
+Laplacian and Adjacency matrices of the resulting graph G.
