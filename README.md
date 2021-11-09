@@ -34,14 +34,15 @@ Lines 7-12 in the RUN_USPS dataset set the parameters in the FiedlerConstruct fu
 1) GRASPEL.jl, RUN_USPS.jl, and USPS.mat must be in the same directory
 
 2) The following packages must be installed in the Julia REPL
---MAT https://github.com/JuliaIO/MAT.jl
---HNSW https://github.com/JuliaNeighbors/HNSW.jl
---Distances https://github.com/JuliaStats/Distances.jl
---MatrixMarket https://github.com/JuliaSparse/MatrixMarket.jl
---Graphs https://github.com/JuliaGraphs/Graphs.jl
---SimpleWeightedGraphs https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl
---Arpack https://github.com/JuliaLinearAlgebra/Arpack.jl
---Clustering https://github.com/JuliaStats/Clustering.jl
+
+	--MAT https://github.com/JuliaIO/MAT.jl
+	--HNSW https://github.com/JuliaNeighbors/HNSW.jl
+	--Distances https://github.com/JuliaStats/Distances.jl
+	--MatrixMarket https://github.com/JuliaSparse/MatrixMarket.jl
+	--Graphs https://github.com/JuliaGraphs/Graphs.jl
+	--SimpleWeightedGraphs https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl
+	--Arpack https://github.com/JuliaLinearAlgebra/Arpack.jl
+	--Clustering https://github.com/JuliaStats/Clustering.jl
 
 command:
 add MAT, HNSW, Distances, MatrixMarket, Graphs, SimpleWeightedGraphs, Arpack, Clustering
