@@ -1,5 +1,6 @@
 # GraspelMATLAB
-Graspel_matlab is the GRASPEL algorithm implemented in MATLAB. 
+GRASPEL_matlab.zip contains the GRASPEL code implemented in MATLAB. Experimental results in the paper are based on this version of code. Run runGRASPEL.m for the GRASPEL algorithm example on the USPS data set.
+
 # GraspelJulia
 Implementation of GRASPEL algorithm into Julia
 Preprocessing and loading set up for included USPS dataset as matfile (USPS.mat)
